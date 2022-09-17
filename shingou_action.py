@@ -22,3 +22,7 @@ def act_shingou(color):
         print('ちゅうい')
 
     return shingou
+
+
+if __name__ == '__main__':
+    act_shingou(int(sys.argv[1]))
